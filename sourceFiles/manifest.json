@@ -1,0 +1,19 @@
+{
+	"name": "CashClicker!",
+	"description": "An extension that lets you click to get cash!",
+	"version": "1.2",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": "icon.png"
+	},
+	"commands": {
+		"_execute_action": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+T",
+				"mac": "MacCtrl+Shift+T"
+			},
+			"description": "opens popup.html"
+		}
+	}
+}
